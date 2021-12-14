@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MACRO name="Hide Selected Tracks" script="&#13;&#10;var selectedTracks = Tracktion.getSelectedEditElements('track');&#13;&#10;var numSelected = selectedTracks.length;&#13;&#10;&#13;&#10;&#13;&#10;for (var i = 0; i &lt; numSelected; ++i)&#13;&#10;  selectedTracks[i].setProperty('hidden', '1');&#13;&#10;&#13;&#10;"/>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MACRO name="Toggle Automation" script="var track = Tracktion.getTrackFromSelectedObject();&#10;Tracktion.changeActiveAutomationParameter (track, 1);&#13;&#10;"/>

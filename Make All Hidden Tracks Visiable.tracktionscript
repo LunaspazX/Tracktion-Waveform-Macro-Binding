@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MACRO name="Make All Hidden Tracks Visiable" script="&#13;&#10;  var tracks = Tracktion.getEditElements('track');&#13;&#10;  var numTracks = tracks.length;&#13;&#10;&#13;&#10;  for (var i = 0; i &lt; numTracks; ++i)&#13;&#10;    tracks[i].setProperty('hidden', '0');&#13;&#10;"
+       key="F3"/>
